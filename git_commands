@@ -37,6 +37,18 @@
     git checkout fitst-programmer
     git branch
     
- 
+11. Create one more branch and switch
+    git checkout -b second-developer
+    touch seconddev.txt
+    git checkout second-developer
+    git status
+    git add .
+    git commit -m "file created by second developer branch"
+    rm seconddev.txt
+    git checkout master
+    git add.
+    git commit -m "Files deleted"
+    
+    
     
     
