@@ -1,0 +1,42 @@
+1.  Create Local Repository
+    git init
+    
+2.  Status (Red color - if files are in local storage)
+    git status
+    
+3.  Add files to staging area
+    git add text.txt
+    
+4.  File maintained by GIT repository 
+    git commit -m "text.txt"
+    
+5.  Update file and check git status
+    git status
+    
+6.  Add modified files to staging area
+    git add .
+    git status
+    git commit -m "Updated File"
+    
+7.  Add new file and add to git local repository
+    touch demo.txt
+    git status
+    git add .
+    git status
+    git restore --staged demo.txt
+    git status
+    git commit -m 'Another file added)
+    
+8.  Create Branch
+    git branch first-programmer
+    
+9.  Which branch you are in 
+    git branch
+    
+10. Switch Branch
+    git checkout fitst-programmer
+    git branch
+    
+ 
+    
+    
