@@ -48,6 +48,8 @@
     git checkout master
     git add.
     git commit -m "Files deleted"
+
+12. Updating here to add into GIT
     
     
     
